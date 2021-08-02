@@ -45,8 +45,8 @@
                             <h4 class="hidden md:block text-xl text-gray-400">Prezentujemy</h4>
                             <h3 class="hidden md:block font-bold text-2xl text-gray-700">Przestrzeń dla społeczności</h3>
                             <p class="text-gray-600 text-justify">Wszystko co potrzebne do funkcjonowania każdej społeczności. Social media, finanse, kontakt. Wszystko w jednym miejscu.</p>
-                            <a class="flex items-baseline mt-3 text-red-600 hover:text-red-900 focus:text-red-900" href="">
-                                <span>Sprawdź szczegóły</span>
+                            <a class="flex items-baseline mt-3 text-red-600 hover:text-red-900 focus:text-red-900" target="_blank" :href="route('communityspace.show')">
+                                <span>Sprawdź szczegóły </span>
                                 <span class="text-xs ml-1">&#x279c;</span>
                             </a>
                         </div>
